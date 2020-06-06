@@ -8,10 +8,6 @@ javascript:document.querySelectorAll('*').forEach(e=>e.setAttribute('style','bac
 ```
 And then click the bookmark on any page you want to enable darkmode on.
 
-```javascript
-javascript:document.querySelectorAll('*').forEach(e=>e.setAttribute('style','background-color:#222;background-image:none;color:#'+(/^A|BU/.test(e.tagName)?'36c;text-decoration:underline;':'eee;')+e.getAttribute('style')))
-```
-
 ## Examples
 ![](./examples/hn.png)
 ![](./examples/youtube.png)
