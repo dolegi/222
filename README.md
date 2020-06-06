@@ -4,7 +4,12 @@
 
 Simply create a bookmark and set the content of [./index.js](./index.js) as the url and click it on any page you want to enable dark mode.
 
+```javascript
+javascript:document.querySelectorAll('*').forEach(e=>e.setAttribute('style','background-color:#222;background-image:none;color:#'+(/^A|BU/.test(e.tagName)?'36c;text-decoration:underline;':'eee;')+e.getAttribute('style')))
+```
+
 ## Examples
+![](./examples/hn.png)
 ![](./examples/youtube.png)
 ![](./examples/google.png)
 
