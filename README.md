@@ -4,6 +4,10 @@
 
 Simply create a bookmark and set the content of [./index.js](./index.js) as the url and click it on any page you want to enable dark mode.
 
+## Examples
+![](./examples/youtube.png)
+![](./examples/google.png)
+
 ## Customization
 Customizing is easy, simpy fork the project and change the styles you would like in [./index.js](./index.js).
 
