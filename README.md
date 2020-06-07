@@ -19,5 +19,19 @@ Simply create a bookmark and set the content of [./index.js](./index.js) as the 
 ## Customization
 Customizing is easy, simpy fork the project and change the styles you would like in [./index.js](./index.js).
 
+## Chrome Extension:
+
+To install as a chrome extension:
+
+1. Check-out or download this project
+
+2. Open Chrome Browser, click tools->extensions
+
+3. Enable developer mode, click toggle ( top-right )
+
+4. Click "load unpacked" button and choose the 222 installation folder
+
+you're good to go!
+
 ## Contributing
 Please open pull requests and issues on github for anything you find :).
